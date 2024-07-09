@@ -1,8 +1,8 @@
 .login-form-container {
-    margin: 0px 5px;
     padding: 5rem 10px;
     border: 6px solid #fff;
     border-radius: 10px;
+    overflow: hidden;
 
     display: grid;
     grid-template-columns: 1fr;
@@ -12,6 +12,7 @@
 .form-container {
     display: grid;
     grid-template-columns: 1fr;
+    overflow: hidden;
 
     width: 100%;
 }
@@ -77,6 +78,7 @@
 
 .big-sizes-image-container {
     display: none;
+    /* background-color: #858585; */
 }
 
 @media (min-width: 500px) {

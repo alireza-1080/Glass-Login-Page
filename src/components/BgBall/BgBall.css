@@ -1,0 +1,29 @@
+.bg-ball-container {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 53%, rgba(0, 212, 255, 1) 100%);
+
+    position: absolute;
+    bottom: calc(50% - 325px);
+    left: calc(50% - 400px);
+}
+
+@media (min-width: 500px) {
+    .bg-ball-container {
+        width: 750px;
+        height: 750px;
+        bottom: calc(50% - 400px);
+        left: calc(50% - 500px);
+    }
+}
+
+@media (min-width: 900px) {
+    .bg-ball-container {
+        width: 850px;
+        height: 850px;
+        bottom: calc(50% - 500px);
+        left: calc(50% - 700px);
+    }
+}

@@ -4,7 +4,7 @@ import React from 'react'
 
 function BgBall() {
   return (
-    <div>BgBall</div>
+    <div className="bg-ball-container"></div>
   )
 }
 
