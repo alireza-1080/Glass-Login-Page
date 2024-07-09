@@ -1,0 +1,148 @@
+.login-form-container {
+    margin: 0px 5px;
+    padding: 5rem 10px;
+    border: 6px solid #fff;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 100%;
+}
+
+.welcome-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.welcome-container h5 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.class-input {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.class-input label {
+    color: #fff;
+    font-weight: 600;
+}
+
+.class-input input {
+    height: 2rem;
+    border-radius: 10px;
+    padding: 5px 1rem;
+    font-family: "PlaywriteGBS-Regular";
+    font-weight: 900;
+}
+
+.login-button-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+}
+
+.login-button-container button {
+    height: calc(2rem + 10px);
+    border-radius: 10px;
+    padding: 5px 1rem;
+    font-family: "PlaywriteGBS-Regular";
+    font-weight: 900;
+    background-color: #fff;
+}
+
+.create-new-account-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 0.5rem;
+}
+
+.create-new-account-container h4 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.big-sizes-image-container {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .form-container {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 770px) {
+    .login-form-container {
+        grid-template-columns: repeat(2, auto);
+        justify-items: center;
+    }
+
+    .form-container {
+        width: 500px;
+    }
+
+    .welcome-container {
+        width: 100%;
+    }
+
+    .welcome-container h5 {
+        font-size: 48px;
+    }
+
+    .class-input {
+        width: 100%;
+    }
+
+    .class-input label {
+        font-size: 22px;
+    }
+
+    .class-input input {
+        font-size: 22px;
+        padding: 0.7rem 2rem;
+    }
+
+    .login-button-container {
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .login-button-container button {
+        height: unset;
+        font-size: 22px;
+        padding: 0.7rem 2rem;
+
+    }
+
+    .create-new-account-container {
+        width: 100%;
+    }
+
+    .big-sizes-image-container {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+
+        width: 100%;
+    }
+
+    .big-sizes-image-container img {
+        width: 100%;
+        max-width: 500px;
+        min-width: 200px;
+    }
+}
